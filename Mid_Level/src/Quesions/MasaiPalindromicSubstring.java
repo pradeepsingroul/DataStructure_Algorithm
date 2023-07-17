@@ -29,7 +29,12 @@ public class MasaiPalindromicSubstring {
 	}
 	
 	public static void main(String[] args) {
-
+		/* 
+		 * you are given a string s,
+		 * write a programe that return the length of the longest palindromic substrings
+		 * 
+		 */
+		
 		String inputString = "xaaaax";
 		int answer = palindromicSubstring(inputString);
 		System.out.println(answer);
